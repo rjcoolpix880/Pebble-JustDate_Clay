@@ -1,0 +1,43 @@
+{
+    "author": "rjcoolpix880@gmail.com",
+    "dependencies": {
+        "pebble-clay": "^1.0.2"
+    },
+    "keywords": [],
+    "name": "justdate",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "JustDate",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BackgroundColor",
+            "ForegroundColor",
+            "SecondTick",
+            "Animations"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "fonts/Quicksand-Regular.ttf",
+                    "name": "FONT_QUICKSAND_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "33b26878-7577-424b-80c4-26b78e1ea002",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "0.3.0"
+}
