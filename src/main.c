@@ -1,4 +1,6 @@
 //this is a test update
+//this is the branch adding test 
+
 #include <pebble.h>
 #include "main.h"
 
