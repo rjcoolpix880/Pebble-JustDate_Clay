@@ -14,8 +14,8 @@
         "messageKeys": [
             "BackgroundColor",
             "ForegroundColor",
-            "SecondTick",
-            "Animations"
+            "ShowMonth",
+            "MonthConfig"
         ],
         "projectType": "native",
         "resources": {
@@ -23,6 +23,12 @@
                 {
                     "file": "fonts/Quicksand-Regular.ttf",
                     "name": "FONT_QUICKSAND_60",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Quicksand-Regular.ttf",
+                    "name": "FONT_QUICKSAND_20",
                     "targetPlatforms": null,
                     "type": "font"
                 }

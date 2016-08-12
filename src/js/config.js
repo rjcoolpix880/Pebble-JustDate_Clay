@@ -28,29 +28,40 @@ module.exports = [
       }
     ]
   },
-  /*
+  
   {
     "type": "section",
     "items": [
       {
         "type": "heading",
-        "defaultValue": "More Settings"
+        "defaultValue": "Month Display Setting"
       },
-      {
+      
+            {
         "type": "toggle",
-        "messageKey": "SecondTick",
-        "label": "Enable Seconds",
+        "messageKey": "ShowMonth",
+        "label": "Hide / Show Month",
         "defaultValue": false
       },
+      
+      
       {
         "type": "toggle",
-        "messageKey": "Animations",
-        "label": "Enable Animations",
+        "messageKey": "MonthConfig",
+        "label": "Month as Number / Name",
         "defaultValue": false
-      }
+      },
+      
+      
+   
+ 
+    
+      
+      
     ]
   },
-  */
+  
+  
   {
     "type": "submit",
     "defaultValue": "Save Settings"

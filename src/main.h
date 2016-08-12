@@ -7,8 +7,8 @@
 typedef struct ClaySettings {
   GColor BackgroundColor;
   GColor ForegroundColor;
-  bool SecondTick;
-  bool Animations;
+  bool ShowMonth;
+  bool MonthConfig;
 } __attribute__((__packed__)) ClaySettings;
 
 static void prv_default_settings();
