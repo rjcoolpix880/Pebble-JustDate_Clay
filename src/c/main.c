@@ -190,7 +190,7 @@ static void prv_window_load(Window *window) {
   text_layer_set_background_color(s_label_Day, GColorClear); //set to GColorClear when done
   layer_add_child(window_layer, text_layer_get_layer(s_label_Day));  
   // Create GFont
-  s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_QUICKSAND_60));
+  s_date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_QUICKSAND_48));
   // Apply to TextLayer
   text_layer_set_font(s_label_Day, s_date_font);
   
@@ -244,10 +244,12 @@ static void prv_init(void) {
   tick_timer_service_subscribe(DAY_UNIT, tick_handler);
 }
 
+
 static void prv_deinit(void) {
   if (s_window) {
     window_destroy(s_window);
   }
+ 
 }
 
 int main(void) {

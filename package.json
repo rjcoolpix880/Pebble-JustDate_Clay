@@ -21,14 +21,16 @@
         "resources": {
             "media": [
                 {
+                    "characterRegex": "[0-9:A-Za-z ]",
                     "file": "fonts/Quicksand-Regular.ttf",
-                    "name": "FONT_QUICKSAND_60",
+                    "name": "FONT_QUICKSAND_20",
                     "targetPlatforms": null,
                     "type": "font"
                 },
                 {
+                    "characterRegex": "[0-9:A-Za-z ]",
                     "file": "fonts/Quicksand-Regular.ttf",
-                    "name": "FONT_QUICKSAND_20",
+                    "name": "FONT_QUICKSAND_48",
                     "targetPlatforms": null,
                     "type": "font"
                 }
@@ -38,12 +40,13 @@
         "targetPlatforms": [
             "aplite",
             "basalt",
-            "chalk"
+            "chalk",
+            "diorite"
         ],
         "uuid": "33b26878-7577-424b-80c4-26b78e1ea002",
         "watchapp": {
             "watchface": false
         }
     },
-    "version": "0.3.0"
+    "version": "0.4.0"
 }
